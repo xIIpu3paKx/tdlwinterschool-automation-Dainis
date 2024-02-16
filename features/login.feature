@@ -8,7 +8,7 @@ Feature: Login
         Then I see a message "You logged into a secure area!"
         And I see the Logout button
 
-    Scenario: Can't log in with invalid username and password
+    Scenario: Cannot log in with invalid username and password
         Given I am on Login page
         When I enter a "asdwe" username
         And I enter a "asdwqtr" password
